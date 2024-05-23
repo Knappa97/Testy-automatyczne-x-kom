@@ -1,0 +1,422 @@
+{
+  "id": "1573a4a8-5571-448e-87a7-b825f0a559fd",
+  "version": "2.0",
+  "name": "TestyPanelLogowania",
+  "url": "https://www.x-kom.pl",
+  "tests": [{
+    "id": "826d72fd-0456-467a-8161-da50e220a09d",
+    "name": "TestPoprawneLogowanie",
+    "commands": [{
+      "id": "06d88786-f2d1-44f2-8328-fa483976f7ea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc41cb39-5c1a-4604-b3d8-2fadf797d2b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "715caea2-f2bb-49a2-8e53-90f6e2086e98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-vo7lvd-3:nth-child(3) > .sc-vo7lvd-2 svg",
+      "targets": [
+        ["css=.sc-vo7lvd-3:nth-child(3) > .sc-vo7lvd-2 svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9ef029-1652-4c21-a9c5-fc42dee734f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-dscwo7-0",
+      "targets": [
+        ["css=.sc-dscwo7-0", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33657715-3f38-4ec2-ad7c-ad96481284b0",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sc-1k5v2vw-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de34da68-c394-4efc-bb25-ab8f04963feb",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sc-1k5v2vw-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "w6927109@gmail.com"
+    }, {
+      "id": "0f78bb76-a801-443d-98f3-09c0c69c3e24",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-1akovi1-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a53d127-0d20-47e3-8a4e-3c18b07e69fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-1akovi1-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "testxkom1234567890"
+    }, {
+      "id": "56b98129-941d-4902-a18f-2b7076fa7137",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de60e6b3-e1d4-418e-818a-dbb709ce97ad",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "368a104e-41cf-4ed8-9e98-9a4730b04673",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7135fc10-0d50-400f-b930-dcc1762983e9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Opinie",
+      "targets": [
+        ["linkText=Opinie", "linkText"],
+        ["css=.sc-1h16fat-0:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/opinie')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Opinie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99a444f0-69e1-4b87-95ca-ece6b2d9f932",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Opinie",
+      "targets": [
+        ["linkText=Opinie", "linkText"],
+        ["css=.dNrrmO:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/opinie')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Opinie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "378c00c9-51eb-4240-bc52-6f9cde8a0091",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Opinie",
+      "targets": [
+        ["linkText=Opinie", "linkText"],
+        ["css=.dNrrmO:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/opinie')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Opinie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "709c5967-3575-4982-a5d9-e24e8043133e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Opinie",
+      "targets": [
+        ["linkText=Opinie", "linkText"],
+        ["css=.dNrrmO:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div/div/div/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/opinie')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Opinie')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a3656271-fc6a-4e79-8f0a-cf7f713d4c5a",
+    "name": "TestBłędneHasło",
+    "commands": [{
+      "id": "91587de4-c85a-4396-b858-f4d312c06750",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3844179-6fe0-4370-860d-8c7317de7401",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "268592a2-bc93-48f5-8d2c-1a96940470e2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Twoje konto",
+      "targets": [
+        ["linkText=Twoje konto", "linkText"],
+        ["css=.iozqG > .sc-vo7lvd-2 > .sc-1h16fat-0", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[4]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/konto')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Twoje konto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e92d2c8c-29f2-42f3-a9b0-535ab12217a4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Twoje konto",
+      "targets": [
+        ["linkText=Twoje konto", "linkText"],
+        ["css=.sc-13bjpvm-5 > .sc-vo7lvd-2 > .sc-1h16fat-0", "css:finder"],
+        ["xpath=//div[@id='app']/div/header/div/div[4]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/konto')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Twoje konto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcc36bac-2267-4b8d-823f-b473eff4e47a",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sc-1k5v2vw-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2163e225-4a7d-4d73-802a-b256e13ad060",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sc-1k5v2vw-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "w6927109@gmail.com"
+    }, {
+      "id": "55f46883-294f-4280-9391-cdc74630ac9b",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-1akovi1-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab228117-9e0d-45bd-9f36-3b8f157c7c93",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-1akovi1-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "k"
+    }, {
+      "id": "e70d082f-9313-4081-affd-9f2d996db85d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "634ae0ab-12fd-428e-99d4-153e9da30fc8",
+    "name": "TestBłędnyMail",
+    "commands": [{
+      "id": "a6d0050c-dab0-412d-91d6-a285fe167df2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfd72be8-a19e-4b43-ab3a-c06cb520a842",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aac5f3fd-7989-4c56-a30f-4d1fa0654415",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-vo7lvd-3:nth-child(3) > .sc-vo7lvd-2 path",
+      "targets": [
+        ["css=.sc-vo7lvd-3:nth-child(3) > .sc-vo7lvd-2 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "91bdbef2-7331-4728-afa7-7ad03cb0ceec",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sc-1k5v2vw-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b34282dc-3b8c-4e43-8ee8-c53765a962bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.sc-1k5v2vw-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "w"
+    }, {
+      "id": "381cc959-bdda-4a38-b2c2-31692030e0fb",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-1akovi1-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd54ab64-4b83-45c9-a5d0-ecf1ee6e130f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.sc-1akovi1-1 > .sc-3ncbnj-3", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "testxkom1234567890"
+    }, {
+      "id": "6f531413-5b4e-4061-bfb6-2bb9dfe13c74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a8ff1b7-b45a-472e-b2c2-916c6f2f46bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Zaloguj się')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce80ed76-8d00-40e5-9381-9dff5b122d9e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-6i4pc6-2",
+      "targets": [
+        ["css=.sc-6i4pc6-2", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/form/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "260020bb-5c2a-42f3-8dcb-33639dd977bf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.x-kom.pl/"],
+  "plugins": []
+}
